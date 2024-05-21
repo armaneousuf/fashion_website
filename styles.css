@@ -227,3 +227,55 @@ hr {
   top: -20px;
 }
 
+.box {
+  background-color: var(--main-black);
+  color: var(--plain-white);
+  padding: 5rem 5rem 0 5rem;
+  line-height: 3rem;
+}
+
+.texts__box > :nth-child(1) {
+  font-size: 18px;
+}
+
+.texts__box > :nth-child(2) {
+  font-size: 56px;
+}
+
+.texts__box > :nth-child(3) {
+  font-size: 25px;
+}
+
+.texts__box > :nth-child(4) {
+  font-size: 18px;
+}
+
+.img__box > :nth-child(1) {
+  position: relative;
+  top: -245px;
+  left: 415px;
+}
+
+.box_images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: end;
+  gap: 1rem;
+  padding: 5rem 2rem 0 2rem;
+}
+
+.box_images > :nth-child(1) {
+  height: 200px;
+}
+
+.box_images > :nth-child(2) {
+  height: 338px;
+}
+
+.box_images > :nth-child(3) {
+  height: 200px;
+}
+
+.box_images > :nth-child(4) {
+  height: 338px;
+}
