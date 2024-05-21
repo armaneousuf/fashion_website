@@ -33,6 +33,10 @@ img {
   margin: 0 auto;
 }
 
+#menu {
+  display: none;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -376,5 +380,19 @@ footer {
     padding: 3rem;
     display: flex;
     justify-content: space-around;
+  }
+}
+
+/* Responsive styles for mobile devices */
+
+@media (max-width: 600px) {
+  .nav li {
+    display: none;
+  }
+
+  #menu {
+    display: block;
+    color: var(--main-black);
+    font-size: 20px;
   }
 }
