@@ -395,4 +395,84 @@ footer {
     color: var(--main-black);
     font-size: 20px;
   }
+
+  .imgs-1 {
+    display: none;
+  }
+  
+  .images {
+   width: 100%;
+   height: 400px;
+   /* overflow-y: scroll; */
+  }
+  
+
+  /* .images > :nth-child(2) {
+   width: 100%;
 }
+
+.images > :nth-child(4) {
+  width: 100%;
+} */
+
+.text h2, p {
+  text-align: center;
+}
+
+.collection_img {
+  flex-direction: column;
+  align-items: center;
+}
+
+.texts {
+  margin-top: 1rem;
+}
+
+.texts p {
+  font-size: 36px;
+}
+
+.texts p:nth-child(1) {
+  position: relative;
+  top: -580px;
+  left: -120px;
+}
+
+.texts p:nth-child(2) {
+  position: relative;
+  top: -140px;
+  left: -100px;
+}
+
+.one p {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.text-price p {
+  text-align: left;
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
