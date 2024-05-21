@@ -279,3 +279,102 @@ hr {
 .box_images > :nth-child(4) {
   height: 338px;
 }
+
+.logos {
+  margin-top: 4rem;
+  padding: 2rem;
+}
+
+.logos h3 {
+  font-size: 35px;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+  padding-left: 8rem;
+}
+
+.logos p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  padding-bottom: 2rem;
+  padding-left: 8rem;
+}
+
+.logo {
+  text-align: end;
+}
+
+.details-content{
+  margin-top: 3rem;
+  background-color: var(--footer-bgr);
+  padding: 30px 0 0 30px;
+}
+
+.details-content h2 {
+  font-size: 30px;
+  padding-bottom: 2rem;
+}
+
+.details-content p {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+.details-content button {
+  margin-bottom: 2rem;
+}
+
+.watch {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0 0 30px;
+}
+
+.watch img {
+  background-color: #FFF0E3;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.last-sec {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+
+  h3 {
+    font-size: 35px;
+    font-weight: 400;
+    font-family: "Bebas Neue", sans-serif;
+  }
+}
+
+.last-sec-img {
+  display: flex;
+  gap: 2rem;
+  width: 300px;
+}
+
+footer {
+  background-color: var(--main-black);
+  margin-top: 4rem;
+  color: var(--plain-white);
+
+  .foo1 {
+    padding: 3rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  .foo2 {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .foo3 {
+    padding: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+}
