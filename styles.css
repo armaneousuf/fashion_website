@@ -1,6 +1,5 @@
 /* font-family: "Bebas Neue", sans-serif; */
 /* font-family: "Plus Jakarta Sans", sans-serif; */
-
 :root {
   --main-black: #1E1C1A;
   --plain-white: #fff;
@@ -390,6 +389,11 @@ footer {
     display: none;
   }
 
+  .flex {
+    display: flex;
+    gap: 20rem;
+  }
+
   #menu {
     display: block;
     color: var(--main-black);
@@ -406,6 +410,9 @@ footer {
    /* overflow-y: scroll; */
   }
   
+  h1 {
+    font-size: 2.5rem;
+  }
 
   /* .images > :nth-child(2) {
    width: 100%;
@@ -454,17 +461,72 @@ footer {
   font-size: 2rem;
 }
 
+.img__box {
+  display: none;
+}
 
+.texts__box {
+  text-align: center;
+}
 
+.box_images {
+  display: flex;
+  width: 100%;
+  /* height: 400px; */
+  overflow-x: scroll;
+}
 
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
+.logo {
+  text-align: center;
 
+  img {
+    width: 200px;
+  }
+}
 
+.details-content {
+  width: 100%;
 
+  h2 {  
+    text-align: center;
+  } 
 
+  p {
+    text-align: center;
+    font-size: 16px;
+  }
+}
 
+.watch {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
 
+.last-sec {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
 
+.last-sec-img {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.foo2 , .foo3 {
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
 
 
 
