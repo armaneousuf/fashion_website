@@ -13,7 +13,6 @@
   text-decoration: none;
   list-style-type: none;
   box-sizing: border-box;
-  border: 1px solid #000;
 }
 
 body {
@@ -133,6 +132,7 @@ button {
   position: absolute;
   top: 40px;
   left: 270px;
+  animation: shake 1s infinite ease-in;
 }
 
 .imgs-1 > :nth-child(3) {
@@ -145,6 +145,12 @@ button {
   position: absolute;
   right: 0;
   bottom: -80px;
+  animation: shake 1s infinite ease-in;
+}
+
+@keyframes shake {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.1); }
 }
 
 .text {
