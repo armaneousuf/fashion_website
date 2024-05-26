@@ -18,7 +18,7 @@
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   height: 100vh;
-  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 img {
@@ -28,6 +28,7 @@ img {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 #menu {
@@ -377,6 +378,7 @@ footer {
     padding: 3rem;
     display: flex;
     justify-content: space-around;
+    text-align: center;
   }
 }
 
@@ -403,10 +405,19 @@ footer {
   }
   
   .images {
-   width: 100%;
-   height: 400px;
-   /* overflow-y: scroll; */
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
   }
+  
+  .images > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
   
   h1 {
     font-size: 2.5rem;
@@ -475,17 +486,25 @@ footer {
 }
 
 .logo-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
   text-align: center;
+
+  h3, p {
+    padding: 0;
+  }
 }
 
 .logo {
-  text-align: center;
+    display: grid;
+    grid-auto-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem;
 
   img {
-    width: 200px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
