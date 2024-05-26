@@ -391,7 +391,7 @@ footer {
 
 /* Responsive styles for mobile devices */
 
-@media (max-width: 768px) {
+@media (max-width: 720px) {
   .nav li {
     display: none;
   }
